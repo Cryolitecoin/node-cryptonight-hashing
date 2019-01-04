@@ -21,7 +21,7 @@
 #define SOFT_AES false
 #else
 #warning Using software AES
-#define SOFT_AES true
+#define SOFT_AES false
 #endif
 
 static struct cryptonight_ctx* ctx = NULL;
